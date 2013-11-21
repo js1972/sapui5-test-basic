@@ -1,5 +1,5 @@
 <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.ui.commons"
 			controllerName="view.Hello" xmlns:html="http://www.w3.org/1999/xhtml">
 
-	<Button id="MyButton" text="Hello XML View" press="doIt"/>
+	<Button id="MyButton" text="{i18n>HELLO_MESSAGE}" press="doIt"/>
 </core:View>
